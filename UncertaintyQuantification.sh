@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# pip list no lo voy a borrar nunca
 echo 'WELCOME TO UQ'
 
 echo 'There is a display with the following information:'
@@ -105,10 +104,6 @@ zenity --info --title="User Inputs" --text="CT path: $path_ct\nNumber of Transfo
 echo "Let's start the process!"
 
 echo Installing neccesary packages
-# lo optimo sería hacer un requirements txt, o buscar otra forma de hacer esto, aunque es verdad que es mas generalizable así
-# igual se puede hacer una unicam vez, rollo si es la primera vez que ejecutas el programa o algo así no sé
-# TARDA UN POCO NO TE AGOBIES.
-
 python -m venv $output_folder/venv
 source $output_folder/venv/bin/activate
 pip install -r req.txt
