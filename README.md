@@ -6,15 +6,13 @@ This repository contains the following:
 
 ## Executable File (UncertaintyQuantification.sh)
 
-It is the main file. Before its use, permissions need to be given to the file by
+It is the main file. Before its use, permissions need to be given to the file by in the terminal.
 
 ``` chmod u+x UncertaintyQuantification.sh ```
 
-in the terminal. After that, it is only needed to do 
+After that, it is only needed to do in the terminal and follow the directions given in the terminal.
 
 ```./UncertaintyQuantification.sh```
-
-in the terminal and follow the directions given in the terminal.
 
 ## Requirements (req.txt)
 
